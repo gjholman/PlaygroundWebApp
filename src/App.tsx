@@ -5,11 +5,11 @@ function App() {
   return (
     <div
       id="body"
-      className="bg-gray-300 h-screen w-screen flex  justify-center"
+      className="bg-gray-400 h-screen w-screen flex  justify-center"
     >
       <div
         id="main-card"
-        className="w-1/3 h-fit shadow-2xl rounded-md px-8 py-8 mt-10 bg-gray-100 space-y-4"
+        className="max-w-md h-fit shadow-2xl rounded-md px-8 py-8 mt-10 bg-gray-200 space-y-4"
       >
         <h1
           id="title"
@@ -17,7 +17,6 @@ function App() {
         >
           <HomeIcon className="h-8" /> Workcation
         </h1>
-
         <img
           id="beach-img"
           src="/src/img/stock_beach.jpg"
@@ -39,7 +38,7 @@ function App() {
         <div>
           <a
             href="#"
-            className="inline-block bg-indigo-500 rounded-lg px-4 py-2 text-gray-100 uppercase font-semibold tracking-wide shadow-md text-sm"
+            className="inline-block bg-indigo-500 rounded-lg px-4 py-2 text-gray-100 uppercase font-semibold tracking-wider shadow-md text-sm hover:opacity-75 focus:ring focus:ring-offset-2 focus:ring-indigo-500 focus:ring-opacity-50 active:opacity-100 transition"
           >
             Book your escape
           </a>
